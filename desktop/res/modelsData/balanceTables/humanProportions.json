@@ -1,0 +1,94 @@
+[
+{
+	class: ru.donny.burnmeter3D.engine.objects.model.HumanInfo
+	age: 1.0
+	proportions: [
+		{
+			a: {
+				class: ru.donny.burnmeter3D.engine.objects.model.BodyPart
+				value: head
+			}
+			b: {
+				class: java.lang.Float
+				value: 0.2
+			}
+		}
+		{
+			a: {
+				class: ru.donny.burnmeter3D.engine.objects.model.BodyPart
+				value: arms
+			}
+			b: {
+				class: java.lang.Float
+				value: 0.7
+			}
+		}
+		{
+			a: {
+				class: ru.donny.burnmeter3D.engine.objects.model.BodyPart
+				value: legs
+			}
+			b: {
+				class: java.lang.Float
+				value: 0.11
+			}
+		}
+		{
+			a: {
+				class: ru.donny.burnmeter3D.engine.objects.model.BodyPart
+				value: torso
+			}
+			b: {
+				class: java.lang.Float
+				value: 0.22
+			}
+		}
+	]
+}
+{
+	class: ru.donny.burnmeter3D.engine.objects.model.HumanInfo
+	age: 2.0
+	proportions: [
+		{
+			a: {
+				class: ru.donny.burnmeter3D.engine.objects.model.BodyPart
+				value: head
+			}
+			b: {
+				class: java.lang.Float
+				value: 0.145
+			}
+		}
+		{
+			a: {
+				class: ru.donny.burnmeter3D.engine.objects.model.BodyPart
+				value: arms
+			}
+			b: {
+				class: java.lang.Float
+				value: 0.085
+			}
+		}
+		{
+			a: {
+				class: ru.donny.burnmeter3D.engine.objects.model.BodyPart
+				value: legs
+			}
+			b: {
+				class: java.lang.Float
+				value: 0.1
+			}
+		}
+		{
+			a: {
+				class: ru.donny.burnmeter3D.engine.objects.model.BodyPart
+				value: torso
+			}
+			b: {
+				class: java.lang.Float
+				value: 0.2524
+			}
+		}
+	]
+}
+]

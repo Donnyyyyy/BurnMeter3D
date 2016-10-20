@@ -1,0 +1,81 @@
+<root>
+
+    <string name="name" >Имя
+    </string>
+
+    <string name="adult" >Взрослый
+    </string>
+
+    <string name="child" >Ребенок
+    </string>
+
+    <string name="modify" >Изменить
+    </string>
+
+    <string name="notification" >Внимание
+    </string>
+
+    <string name="date" >Дата
+    </string>
+
+    <string name="exit" >Выход
+    </string>
+    
+    <string name="medicalHistory" >История болезни
+    </string>
+
+    <string name="burnsPercentage" >Площадь ожога
+    </string>
+
+    <string name="therapyVolume" > Объем терапии
+    </string>
+
+    <string name="ml" >мл
+    </string>
+
+    <string name="back" >Назад
+    </string>
+
+    <string name="height" >Рост
+    </string>
+
+    <string name="rotate" >Вращать
+    </string>
+
+    <string name="select" >Выбрать
+    </string>
+
+    <string name="save" >Сохранить
+    </string>
+
+    <string name="calibrate" >Калибровать
+    </string>
+
+    <string name="fullName" >Полное имя
+    </string>
+
+    <string name="burnI" >Ожог (I)
+    </string>
+
+    <string name="burnII" >Ожог (II)
+    </string>
+
+    <string name="burnIII" >Ожог (III)
+    </string>
+
+    <string name="medicalHistoryIsNotSet" >Номер истории болезни введен некорректно
+    </string>
+
+    <string name="cantParseName" >Имя введено некорректно
+    </string>
+
+    <string name="remove" >Удалить
+    </string>
+
+    <string name="openStorage" >Загрузить 
+    </string>
+
+    <string name="newPatient" >Новый пациент
+    </string>
+
+</root>

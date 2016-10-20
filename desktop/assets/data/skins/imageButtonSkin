@@ -1,0 +1,6 @@
+"com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle": {
+    "default": {
+        "imageDown": "./drawable/newPatient_down.bmp", 
+        "imageUp": ./drawable/newPatient.bmp"
+    }
+}

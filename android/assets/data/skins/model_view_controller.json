@@ -1,0 +1,27 @@
+{
+    com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+        eraser: {
+            down: eraser_pressed, 
+            up: eraser,
+            over: eraser_hovered
+        },
+        
+        i: {
+            down: i_pressed, 
+            up: i,
+            over: i_hovered
+        },
+
+        ii: {
+            down: ii_pressed, 
+            up: ii,
+            over: ii_hovered
+        },
+
+        iii: {
+            down: iii_pressed, 
+            up: iii,
+            over: iii_hovered
+        }
+    }
+}

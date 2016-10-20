@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Burn Meter 3D</string>
+    <string name="new_patient">Новый пациент</string>
+    <string name="open_storage">Прошлые записи</string>
+    <string name="settings">Настройки</string>
+
+</resources>
