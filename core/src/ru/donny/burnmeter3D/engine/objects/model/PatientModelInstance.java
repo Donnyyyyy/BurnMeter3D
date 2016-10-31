@@ -14,59 +14,65 @@ import ru.donny.burnmeter3D.graphics.renderable.BurnInstance;
 
 public class PatientModelInstance extends ModelInstance implements BurnsStorage {
 
-	private String name;
-	private BurnsWrapper burns;
+    private String name;
+    private BurnsWrapper burns;
 
-	public PatientModelInstance(Model model, String name, BurnsWrapper burns) {
-		super(model);
-		this.setName(name);
-		this.setBurns(burns);
-	}
+    public PatientModelInstance(Model model, String name, BurnsWrapper burns) {
+        super(model);
+        this.setName(name);
+        this.setBurns(burns);
+    }
 
-	@Override
-	public boolean removeLast() {
-		return getBurns().removeLast();
-	}
 
-	@Override
-	public void clear() {
-		getBurns().clear();
-	}
+    @Override
+    public boolean removeLast() {
+        return getBurns().removeLast();
+    }
 
-	@Override
-	public boolean add(BurnInstance burn) {
-		return getBurns().add(burn);
-	}
+    @Override
+    public void clear() {
+        getBurns().clear();
+    }
 
-	public String getName() {
-		return name;
-	}
+    @Override
+    public boolean add(BurnInstance burn) {
+        return getBurns().add(burn);
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	@Override
-	public ArrayList<Triangle> getUniqueTriangles() {
-		return getBurns().getUniqueTriangles();
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	@Override
-	public Burns toBurns(ModelAbstraction modelAbstraction) {
-		return getBurns().toBurns(modelAbstraction);
-	}
+    @Override
+    public ArrayList<Triangle> getUniqueTriangles() {
+        return getBurns().getUniqueTriangles();
+    }
 
-	@Override
-	public void setResultDisplayer(DataInterface dataInterface) {
-		getBurns().setResultDisplayer(dataInterface);
-	}
+    @Override
+    public Burns toBurns(ModelAbstraction modelAbstraction) {
+        return getBurns().toBurns(modelAbstraction);
+    }
 
-	public BurnsWrapper getBurns() {
-		return burns;
-	}
+    @Override
+    public void setResultDisplayer(DataInterface dataInterface) {
+        getBurns().setResultDisplayer(dataInterface);
+    }
 
-	public void setBurns(BurnsWrapper burns) {
-		this.burns = burns;
-	}
+    @Override
+    public ArrayList<BurnInstance> asArray() {
+        return getBurns().asArray();
+    }
+
+    public BurnsWrapper getBurns() {
+        return burns;
+    }
+
+    public void setBurns(BurnsWrapper burns) {
+        this.burns = burns;
+    }
 
 }

@@ -21,4 +21,6 @@ public interface BurnsStorage {
 	public ArrayList<Triangle> getUniqueTriangles();
 
 	public void setResultDisplayer(DataInterface dataInterface);
+
+	public ArrayList<BurnInstance> asArray();
 }

@@ -103,7 +103,7 @@ public class ModelWrapper {
     }
 
     /**
-     * @return number of slots occupied by a single vertex.
+     * @return number of array slots occupied by a single vertex.
      */
     public int getVertexSize() {
         if (vertexSize != null)

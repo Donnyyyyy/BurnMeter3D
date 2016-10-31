@@ -42,6 +42,10 @@ public class BurnsWrapper extends ArrayList<BurnInstance> implements BurnsStorag
 		updateInfo();
 	}
 
+	public ArrayList<BurnInstance> asArray(){
+		return this;
+	}
+
 	public ArrayList<Triangle> getUniqueTriangles() {
 		HashSet<Triangle> unique = new HashSet<Triangle>();
 

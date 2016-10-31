@@ -86,7 +86,7 @@ public class ModelSelectionScreen implements Screen {
                 .expandX().left().padLeft(70).row();
         ageRadioGroup = ui.finishRadioGroup();
 
-        ui.addIcon("data/drawable/checked.png", new ClickListener() {
+        ui.addIcon("checked.png", new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 ApplicationController.makeSelection(modelChooser.choose(selectedGender, isChild));

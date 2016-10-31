@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.ButtonGroup;
 import com.badlogic.gdx.scenes.scene2d.ui.Cell;
@@ -36,13 +37,13 @@ public class MaterialUi extends Stage {
     protected void magicInit() {
         addTextButton("Magic goes somewhere here", null);
         addCheckbox("And here", null);
-        addIcon("data/drawable/logo.png", null);
+        addIcon("logo.png", null);
 
         rootTable.clearChildren();
     }
 
-    public Cell<ImageButton> addIcon(String drawablePath, ClickListener clickListener){
-        ImageButton imageButton = new ImageButton(new SpriteDrawable(new Sprite(new Texture(drawablePath))));
+    public Cell<ImageButton> addIcon(String iconName, ClickListener clickListener) {
+        ImageButton imageButton = new ImageButton(new SpriteDrawable(new Sprite(new Texture("data/drawable/" + iconName))));
 
         if (clickListener != null)
             imageButton.addListener(clickListener);
@@ -88,5 +89,15 @@ public class MaterialUi extends Stage {
 
     public Table getRootTable() {
         return rootTable;
+    }
+
+    public Actor getLast() {
+        if (!rootTable.hasChildren()) {
+            return null;
+        } else {
+            Actor[] children = rootTable.getChildren().items;
+
+            return children[children.length - 1];
+        }
     }
 }
